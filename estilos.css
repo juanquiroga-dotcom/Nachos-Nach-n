@@ -56,12 +56,12 @@ nav{
 .nachilinks:hover{
 	color:#ff4400;
 	font-size:33px;
-	font-family:Zombie Hunger;
+	font-family:"Zombie Hunger";
 }
 
 h1{
 	display:flex;
-	font-family:Zombie Hunger;
+	font-family:"Zombie Hunger";
 	background: -webkit-linear-gradient(black, #f77300);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -72,7 +72,7 @@ h1{
 .presentacion{
 	font-size:20px;
 	line-height:35px;
-	font-family:Lucida Console,Monaco,monospace;
+	font-family:"Lucida Console",Monaco,monospace;
 	display:flex;
 	text-align:justify;
 	padding:5%;
@@ -88,7 +88,7 @@ h1{
 	margin-right:10%;
 	font-size:20px;
 	line-height:35px;
-	font-family:Lucida Console,Monaco,monospace;
+	font-family:"Lucida Console",Monaco,monospace;
 	text-align:justify;
 	padding:5%;
 }
@@ -126,11 +126,11 @@ footer{
 a:link{
 	text-decoration:none;
 	font-size:25px;
-	font-family:Lucida Console,Monaco,monospace;
+	font-family:"Lucida Console",Monaco,monospace;
 }
 
 .blanco{
-	font-family:Lucida Console,Monaco,monospace;
+	font-family:"Lucida Console",Monaco,monospace;
 }
 	
 .galeria{
@@ -144,4 +144,5 @@ a:link{
 	flex-direction:column;
 	align-items:center;
 	margin-bottom:1%;
+
 }
