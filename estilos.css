@@ -1,0 +1,147 @@
+@font-face{
+	font-family:"Zombie Hunger";
+	src:url("fuentes/Zombie Hunger.otf")
+}
+
+body{
+	margin:0px;
+}
+
+.logo{
+	padding:1%;
+	height:auto;
+	width:15%;
+}
+
+header{
+	display:flex;
+     background: #000000;
+     background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(255, 140, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+	 height:auto;
+	 width:100%;
+}
+
+img{
+	height:auto;
+	width:auto;
+}
+
+nav{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	padding-left:5%;
+}
+
+.nachilinks:link{
+	font-size:29px;
+	text-decoration:none;
+	padding:2%;
+	font-family:Lucida Console,Monaco,monospace;
+	transition:all 0.5s;
+	color:#fcc603;
+	text-shadow:2px 2px 2px black; 
+}
+
+.nachilinks:visited{
+	font-size:29px;
+	text-decoration:none;
+	padding:2%;
+	font-family:Lucida Console,Monaco,monospace;
+	transition:all 0.5s;
+	color:#fcc603;
+	text-shadow:2px 2px 2px black;
+}
+
+.nachilinks:hover{
+	color:#ff4400;
+	font-size:33px;
+	font-family:Zombie Hunger;
+}
+
+h1{
+	display:flex;
+	font-family:Zombie Hunger;
+	background: -webkit-linear-gradient(black, #f77300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	justify-content:center;
+	font-size:40px;
+}
+
+.presentacion{
+	font-size:20px;
+	line-height:35px;
+	font-family:Lucida Console,Monaco,monospace;
+	display:flex;
+	text-align:justify;
+	padding:5%;
+}
+
+.pres{
+	display:flex;
+	width:100%;
+	height:auto;
+}
+
+.nachitacto{
+	margin-right:10%;
+	font-size:20px;
+	line-height:35px;
+	font-family:Lucida Console,Monaco,monospace;
+	text-align:justify;
+	padding:5%;
+}
+
+.nachituc{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.negritolindo{
+	height:500px;
+	border:solid;
+	border-color:black;
+	border-width:auto;
+	border-radius: 25px;
+	margin-right:5%;
+}
+
+.orden{
+	display:flex;
+}
+
+footer{
+	 background:linear-gradient(#fc7f03, black);
+	 height:auto;
+	 width:100%;
+	 display:flex;
+	 justify-content:space-around;
+	 align-items:center;
+	 padding-top:1%;
+	 padding-bottom:1%;
+}
+
+a:link{
+	text-decoration:none;
+	font-size:25px;
+	font-family:Lucida Console,Monaco,monospace;
+}
+
+.blanco{
+	font-family:Lucida Console,Monaco,monospace;
+}
+	
+.galeria{
+	margin-right:15%;
+	margin-left:18%;
+	margin-bottom:2%;
+}
+
+.indec{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-bottom:1%;
+}
