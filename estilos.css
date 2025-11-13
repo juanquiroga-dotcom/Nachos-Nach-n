@@ -1,8 +1,7 @@
 @font-face{
-	font-family:"Zombie Hunger";
+	font-family:"Zombie Hunger DEMO";
 	src:url("Fuentes/Zombie Hunger.otf")
 }
-
 body{
 	margin:0px;
 }
@@ -37,7 +36,7 @@ nav{
 	font-size:29px;
 	text-decoration:none;
 	padding:2%;
-	font-family:Lucida Console,Monaco,monospace;
+	font-family:"Lucida Console",Monaco,monospace;
 	transition:all 0.5s;
 	color:#fcc603;
 	text-shadow:2px 2px 2px black; 
@@ -47,7 +46,7 @@ nav{
 	font-size:29px;
 	text-decoration:none;
 	padding:2%;
-	font-family:Lucida Console,Monaco,monospace;
+	font-family:"Lucida Console",Monaco,monospace;
 	transition:all 0.5s;
 	color:#fcc603;
 	text-shadow:2px 2px 2px black;
@@ -56,12 +55,12 @@ nav{
 .nachilinks:hover{
 	color:#ff4400;
 	font-size:33px;
-	font-family:"Zombie Hunger";
+	font-family:"Zombie Hunger DEMO";
 }
 
 h1{
 	display:flex;
-	font-family:"Zombie Hunger";
+	font-family:"Zombie Hunger DEMO";
 	background: -webkit-linear-gradient(black, #f77300);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -146,4 +145,5 @@ a:link{
 	margin-bottom:1%;
 
 }
+
 
