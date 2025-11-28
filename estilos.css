@@ -134,11 +134,11 @@ a:link{
 }
 	
 .galeria{
-	margin-right:25%;
-	margin-left:25%;
+	margin-right:15%;
+	margin-left:15%;
 	margin-bottom:2%;
 	height:auto;
-	width:50%;
+	width:70%;
 }
 
 .indec{
@@ -147,7 +147,25 @@ a:link{
 	align-items:center;
 	margin-bottom:1%;
 }
-
+.paquito2{
+	margin:auto;
+	font-size:20px;
+	line-height:35px;
+	font-family:Lucida Console,Monaco,monospace;
+	text-align:justify;
+	padding:5%;
+}
+.pablitolindo{
+	height:auto;
+	border:solid;
+	border-color:black;
+	width:80%;
+	border-radius: 25px;
+	margin:auto;
+	display:flex;
+	justify-content:center;
+	margin-bottom:2%;
+}
 @media screen and (max-width:800px)
 {
 	main
